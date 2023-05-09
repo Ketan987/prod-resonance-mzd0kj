@@ -7,7 +7,7 @@ cloudinary.config({
   api_secret: "wgxgIvCRiTL_kx4W3JKT2pmZs1A",
 });
 
-const imgs = "./imgs/Olympic_flag.jpg";
+const imgs = "https://upload.wikimedia.org/wikipedia/commons/d/d8/United_Nations_Flags_-_cropped.jpg";
 
 const main = async () => {
   const res = await cloudinary.uploader.upload(imgs);
